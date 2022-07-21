@@ -14,9 +14,9 @@ class SolarSystem extends React.Component {
     ));
     const title = <Title headline="Planetas" />;
     return (
-      <div>
-        <div data-testid="solar-system">{ title }</div>
-        <div>
+      <div className="solar-system">
+        <div className="solar-system-name" data-testid="solar-system">{ title }</div>
+        <div className="planetas">
           { planetas }
         </div>
       </div>

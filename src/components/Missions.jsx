@@ -19,7 +19,7 @@ class Missions extends React.Component {
     return (
       <div>
         <div data-testid="missions">{ titulo }</div>
-        <div>{ missoes }</div>
+        <div className="missions-cards">{ missoes }</div>
       </div>
     );
   }

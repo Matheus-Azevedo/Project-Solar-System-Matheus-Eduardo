@@ -1,3 +1,38 @@
-.App {
+body {
+  background-image: url(../src/images/background.png);
+  color: aliceblue;
+  font-size: 30px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.solar-system-name {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.planetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.missions-cards {
+  border: 3px solid aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mission-card {
+  border: 3px solid aliceblue;
+  margin: 10px;
+  width: 400px;
   text-align: center;
 }
